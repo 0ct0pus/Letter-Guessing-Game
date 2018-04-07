@@ -1,0 +1,53 @@
+
+
+.container {
+
+}
+
+.image-container {
+
+}
+
+.catText {
+  font-size: 80px;
+  font-family: "Comic Sans MS", Arial, sans-serif;
+  color:black;
+}
+
+.catText2 {
+  font-size: 80px;
+  font-family: "Comic Sans MS", Arial, sans-serif;
+  color:red;
+}
+
+.cat-image{
+
+}
+
+.choices {
+
+}
+
+button {
+  background-color: blue;
+  border: 10px;
+  border-color: black;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 80px;
+  font-family: "Comic Sans MS", Arial, sans-serif;
+}
+button:hover {
+    background-color: #0000AA;
+}
+
+.button-active-correct {
+  background-color: green;
+}
+
+.button-active-incorrect {
+  background-color: red;
+}

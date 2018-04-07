@@ -40,9 +40,10 @@ button {
   font-size: 80px;
   font-family: "Comic Sans MS", Arial, sans-serif;
 }
-button:hover {
+
+/*button:hover {
     background-color: #0000AA;
-}
+}*/
 
 .button-active-correct {
   background-color: green;

@@ -17,12 +17,16 @@ $(document).ready(() => {
     $oButton.addClass('button-active-incorrect');
     $('.catText').replaceWith("<h1 class='catText2' align='center'>Cot</h1>");
     $('.catText2').replaceWith("<h1 class='catText2' align='center'>Cot</h1>");
+  }).on(('mouseleave'), () => {
+    $oButton.removeClass('button-active-incorrect');
   })
 
   $uButton.on(('click'), () => {
     $uButton.addClass('button-active-incorrect');
     $('.catText').replaceWith("<h1 class='catText2' align='center'>Cut</h1>");
     $('.catText2').replaceWith("<h1 class='catText2' align='center'>Cut</h1>");
+  }).on(('mouseleave'), () => {
+    $uButton.removeClass('button-active-incorrect');
   })
 
 
